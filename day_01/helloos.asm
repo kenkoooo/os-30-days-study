@@ -1,3 +1,8 @@
+;   DB: write a specified byte
+;   DW: write specified 2 bytes
+;   DD: write specified 4 bytes
+;   RESB: fill by 0
+
     DB      0xeb, 0x4e, 0x90
     DB      "HELLOUPL"          ;   name of boot sector
     DW      512                 ;   size of 1 sector
